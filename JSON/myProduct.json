@@ -1,0 +1,199 @@
+[
+{
+"filter_id":1,
+"products":[{
+             "product_id":10,
+             "product_name":"Iron box",
+             "imgSrc":"images/ironbox.jpg",
+             "price":5000
+             },
+             {
+             "product_id":11,
+             "product_name":"Electric Cooker",
+             "imgSrc":"images/Cooker.WEBP",
+             "price":3500
+             },
+             {
+             "product_id":13,
+             "product_name":"TV",
+             "imgSrc":"images/tv.jpg",
+             "price":17000
+             },
+             {
+             "product_id":14,
+             "product_name":"Micro oven",
+             "imgSrc":"images/micro.jpg",
+             "price":6000
+             },
+             {
+             "product_id":15,
+             "product_name":"mixer",
+             "imgSrc":"images/mixer.jpg",
+             "price":3500
+             },
+             {
+             "product_id":16,
+             "product_name":"Kettle",
+             "imgSrc":"images/kettle.webp",
+             "price":1000
+             }]
+ },
+ {
+ "filter_id":2,
+ "products":[{
+            "product_id":17,
+            "product_name":"Men Shirt",
+            "imgSrc":"images/mens-shirt.webp",
+            "price":3000
+            },
+            {
+            "product_id":18,
+            "product_name":"Men T Shirt",
+            "imgSrc":"images/mens-t-shirt.jpg",
+            "price":1999
+            },
+            {
+            "product_id":19,
+            "product_name":"Men Jeans",
+            "imgSrc":"images/mean-jean.jpg",
+            "price":1500
+            },
+            {
+            "product_id":20,
+            "product_name":"Mens Purse",
+            "imgSrc":"images/mens-purse.jpg",
+            "price":600
+            },
+            {
+            "product_id":21,
+            "product_name":"Men Bag",
+            "imgSrc":"images/mens-bag.jpg",
+            "price":999
+            },
+            {
+            "product_id":22,
+            "product_name":"Men Watch",
+            "imgSrc":"images/mens-watch.webp",
+            "price":3000
+            }]
+            
+ },
+ {
+ "filter_id":3,
+ "products":[{
+             "product_id":23,
+             "product_name":"Women Jeans",
+             "imgSrc":"images/women-jean.png",
+             "price":600
+             },
+             {
+             "product_id":24,
+             "product_name":"Women T Shirt",
+             "imgSrc":"images/womens-tshirt.jpg",
+             "price":500
+             },
+             {
+             "product_id":25,
+             "product_name":"Women Salwar",
+             "imgSrc":"images/women-salwar.jpg",
+             "price":1000
+             },
+             {
+             "product_id":26,
+             "product_name":"Women Watch",
+             "imgSrc":"images/women-watch.jpg",
+             "price":3000
+             },
+             {
+             "product_id":27,
+             "product_name":"Women Slipper",
+             "imgSrc":"images/women-sliper.jpg",
+             "price":1500
+             },
+             {
+             "product_id":28,
+             "product_name":"Women Bag",
+             "imgSrc":"images/girl-slingbag.jpg",
+             "price":600
+             }]
+ },
+ {
+ "filter_id":4,
+ "products":[{
+              "product_id":29,
+              "product_name":"Chicken Biryani",
+              "imgSrc":"images/biriyani.jpg",
+              "price":399
+              },
+              {
+              "product_id":30,
+              "product_name":"Chicken 65",
+              "imgSrc":"images/chicken65.jpg",
+              "price":150
+              },
+              {
+              "product_id":31,
+              "product_name":"Fried Rice",
+              "imgSrc":"images/friedrice.jpg",
+              "price":150
+              },
+              {
+              "product_id":32,
+              "product_name":"Meals",
+              "imgSrc":"images/meals.jpg",
+              "price":399
+              },
+              {
+              "product_id":33,
+              "product_name":"Poori",
+              "imgSrc":"images/poori.webp",
+              "price":399
+              },
+              {
+              "product_id":34,
+              "product_name":"Parotta",
+              "imgSrc":"images/parotta.jpg",
+              "price":60
+              }]
+ },
+ {
+ "filter_id":5,
+ "products":[{
+              "product_id":35,
+              "product_name":"Classic Book",
+              "imgSrc":"images/classsic book.webp",
+              "price":100
+              },
+              {
+              "product_id":36,
+              "product_name":"Children Book",
+              "imgSrc":"images/children-book.jpg",
+              "price":199
+              },
+              {
+              "product_id":37,
+              "product_name":"Fairy Tale",
+              "imgSrc":"images/fairytale.jpg",
+              "price":499
+              },
+              {
+              "product_id":38,
+              "product_name":"Engineering Physics",
+              "imgSrc":"images/physics book.webp",
+              "price":499
+              },
+              {
+              "product_id":39,
+              "product_name":"School book",
+              "imgSrc":"images/school book.jpg",
+              "price":399
+              },
+              {
+              "product_id":40,
+              "product_name":"Jungle Book",
+              "imgSrc":"images/jungle-book.jpg",
+              "price":399
+              }]
+ 
+}
+]

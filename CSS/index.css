@@ -1,0 +1,650 @@
+
+body
+{
+	background-image:url("../images/lavender.avif");
+	width:100%;
+	object-fit:cover;
+	background-attachment:fixed;
+	background-size:100% 700px;
+	overflow-y:auto;
+	background-repeat:repeat;
+	
+	
+}
+
+.wrapper
+{
+	width:400px;
+	margin:30px auto auto auto;
+	
+}
+
+.myBanner #cog-outer
+{
+	float:right;
+	height:170px;
+	width:170px;
+	margin:10px 20px 10px auto;
+	position:relative;
+	z-index:2;
+	padding:0px;
+	border-radius:50%;
+	text-align:center;
+	
+}
+
+#cog-outer #cog-inner
+{
+	width:170px;
+	height:170px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	text-align:center;
+	
+	
+}
+
+.myBanner
+{
+	width:400px;
+	margin:auto;
+	background-image:linear-gradient(to right,lavender,purple);
+	border-width:2px 2px 0px 2px;
+	border-style:solid;
+	border-color:violet;
+	
+	height:200px;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+
+.myRow
+{
+	width:400px;
+	
+	height:auto;
+	
+   
+	background-color:rgb(172, 100, 172);
+	border-width:0px 2px 2px 2px;
+	border-color:violet;
+	border-style:solid;
+	box-sizing:border-box;
+	
+	margin:auto;
+	
+}
+
+
+.carousel-item 
+{
+	padding:10px;
+	
+}
+
+#flexOutput
+{
+	padding:0px;
+}
+
+#flexContainer
+{
+	height:230px;
+	overflow-y:auto;
+	position:fixed;
+	top:0px;
+	right:10px;
+	display:flex;
+	flex-direction:column;
+	width:340px;
+	padding:0px;
+	box-sizing:border-box;
+	z-index:4;
+	
+}
+
+#flexContainer H2
+{
+	align-self:flex-start;
+	color:violet;
+	margin:0px;
+	padding:0px;
+	width:320px;
+	
+}
+
+#flexContainer div
+{
+	width:320px;
+	border:1px solid violet;
+	border-radius:3%;
+	background-image:linear-gradient(to right bottom,lavender,purple);
+	height:160px;
+	padding:20px;
+	box-sizing:border-box;
+	margin:0px;
+	
+}
+
+#flexContainer hr
+{
+	margin:0px;
+	padding:0px;
+}
+
+#flexContainer button
+{
+	float:right;
+	margin:auto 5px auto auto;
+}
+
+#flexContainer #buttons
+{
+	padding:0px;
+	height:auto;
+}
+
+#finalBill
+{
+	padding:0px;
+	width:400px;
+	overflow-x:auto;
+	border-radius:3%;
+	box-sizing:border-box;
+	height:450px;
+	overflow-y:auto;
+	position:fixed;
+    top:10px;
+    left:0px;
+    z-index:5;
+    display:none;	
+	
+}
+
+#finalBill #bankInfo
+{
+	width:400px;
+	height:215px;
+	overflow-x:auto;
+	display:none;
+	padding:0px;
+	box-sizing:border-box;
+	border:1px solid black;
+	border-radius:3%;
+	margin:auto;
+}
+
+#bankInfo img
+{
+	width:30px;
+	margin:auto auto auto 15px;
+}
+
+
+#finalBill #billTable
+{
+	width:400px;
+	height:200px;
+	overflow-x:auto;
+	background-color:purple;
+	border-radius:3%;
+    padding:0px;
+    overflow-y:auto;
+    border:1px solid white;
+    box-sizing:border-box;
+    margin:auto;
+    
+}
+
+#finalBill h2
+{
+	margin:auto;
+	padding:0px;
+	color:white;
+	
+}
+
+#bankInfo input[type="text"]
+{
+	border-radius:4px;
+	border:1px solid black;
+}
+
+#bankInfo input[type="password"]
+{
+	border-radius:4px;
+}
+
+.table-product-heading
+{
+	width:140px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+.table-items-heading
+{
+	width:50px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+.table-product-content
+{
+	width:140px;
+	height:140px;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+.table-product-items
+{
+	width:50px;
+	height:140px;
+	text-align:center;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+}
+
+.table-product-total
+{
+	width:70px;
+	padding:20px;
+	text-align:center;
+	height:140px;
+	box-sizing:border-box;
+	color:white;
+}
+
+.table-total-heading
+{
+	width:70px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+#billTable table
+{
+	width:310px;
+	height:auto;
+	margin:auto;
+	border:1px solid white;
+	border-collapse:collapse;
+}
+#billTable th,td
+{
+	color:white;
+	border:1px solid white;
+	font-weight:600;
+}
+
+#finalBill #buttons2
+{
+	width:400px;
+	overflow-x:auto;
+	height:50px;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+
+#buttons2 #backToCart
+{
+	float:left;
+	margin:0px auto 0px 10px;
+	height:50px;
+}
+
+#buttons2 #pay
+{
+	float:right;
+	margin:0px 10px 0px auto;
+	height:50px;
+}
+
+.carousel-item .img1
+{
+	width:180px;
+	height:180px;
+	object-fit:cover;
+	border:1px solid red;
+	margin-left:10px;
+	margin-bottom:10px;
+	
+}
+
+.carousel-item .img2
+{
+	width:180px;
+	margin-top:3px;
+	height:180px;
+	object-fit:cover;
+	border:1px solid red;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+#footer
+{
+	width:400px;
+	padding:0px;
+	margin:auto;
+	height:45px;
+	background-image:linear-gradient(to right bottom,lavender,purple);
+	border-width:0px 2px 2px 2px;
+	border-color:violet;
+	border-style:solid;
+	box-sizing:border-box;
+	
+	
+}
+
+#footer #myMail
+{
+	width:300px;
+	float:right;
+	margin:5px 10px auto auto;
+	font-family:myFont;
+	color:#ad184a;
+	text-align:right;
+	height:45px;
+	padding:0px;
+
+}
+
+
+@font-face
+{
+	src:url(../fonts/SophieMonoSerif.ttf);
+	font-family:myFont;
+}
+
+@media screen and (min-width:960px)
+{
+	.wrapper{width:960px;}
+	body{height:1000px;overflow-y:auto;background-repeat:repeat;width:100%;}
+	.myBanner{width:960px;}
+	.myRow{width:960px;}
+	nav{width:960px;}
+	#demo{width:960px;}
+	.carousel-item{padding:20px;}
+	#finalBill{width:550px;top:10px;left:350px;position:fixed;height:560px;}
+	#finalBill #bankInfo{width:530px;padding:10px;box-sizing:border-box;}
+	#finalBill #billTable{width:530px;padding:30px;box-sizing:border-box;height:310px;overflow-y:auto;}
+	#finalBill #buttons2{width:530px;padding:0px 10px 0px 10px;}
+	#flexContainer{height:430px;overflow-y:auto;}
+	.carousel-item .img1{width:450px;height:200px;object-fit:cover;border:1px solid red;}
+	.carousel-item .img2{width:450px;margin-top:3px;height:200px;object-fit:cover;border:1px solid red;}
+	#footer{width:960px;}
+	#footer #myMail{width:400px;float:right;}
+	
+}
+
+
+@media screen and (min-width:700px) and (max-width:960px)
+{
+	.wrapper{width:630px;margin:auto}
+	body{height:800px;overflow-y:auto;background-repeat:repeat;width:100%;}
+	.carousel-item{padding:20px;}
+	.myBanner{width:630px;}
+	.myRow{width:630px;}
+	nav{width:630px;}
+	#demo{width:630px;}
+	.carousel-item{padding:15px;}
+	.carousel-item .img1{width:290px;height:200px;object-fit:cover;border:1px solid red;margin-left:15px;margin-bottom:10px;}
+	.carousel-item .img2{width:290px;height:200px;object-fit:cover;border:1px solid red;margin-left:15px;margin-bottom:10px;}
+	#finalBill{width:550px;top:10px;left:50px;position:fixed;height:450px;overflow-y:auto;}
+	#finalBill #bankInfo{width:530px;padding:10px;box-sizing:border-box;}
+	#finalBill #billTable{width:530px;padding:30px;box-sizing:border-box;height:200px;overflow-y:auto;}
+	#finalBill #buttons2{width:530px;padding:0px 10px 0px 10px;}
+	#flexContainer{height:200px;overflow-y:auto;}
+	#footer{width:630px;}
+	#footer #myMail{width:400px;float:right;}
+}
+
+
+
+
+
+/* ===== LAVENDER PURPLE THEME ===== */
+
+:root {
+    --lavender-bg: #F5F0FF;
+    --lavender-light: #E6E6FA;
+    --lavender-accent: #C4A1E8;
+    --purple-main: #8B5FBF;
+    --purple-dark: #553078;
+    --purple-border: #B69ADB;
+    --white: #FFFFFF;
+}
+
+/* Page background */
+body {
+    background-color: var(--lavender-bg);
+}
+
+/* Banner */
+.myBanner {
+    background-image: linear-gradient(
+        to right,
+        #F5F0FF,
+        #C4A1E8,
+        #8B5FBF
+    );
+    border-color: var(--purple-border);
+}
+
+/* Bootstrap navbar */
+.navbar.bg-primary {
+    background-color: var(--purple-dark) !important;
+    border-color: var(--purple-border) !important;
+}
+
+/* Navbar buttons */
+.navbar .btn-primary,
+.btn-primary {
+    background-color: var(--purple-main) !important;
+    border-color: var(--purple-main) !important;
+    color: var(--white) !important;
+}
+
+.navbar .btn-primary:hover,
+.btn-primary:hover {
+    background-color: var(--purple-dark) !important;
+    border-color: var(--purple-dark) !important;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    background-color: var(--lavender-bg);
+    border: 1px solid var(--purple-border);
+}
+
+.dropdown-item {
+    color: var(--purple-dark);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: var(--lavender-light);
+    color: var(--purple-dark);
+}
+
+/* Product section */
+.myRow {
+    background-color: var(--lavender-bg);
+    border-color: var(--purple-border);
+}
+
+/* Product cards created using JavaScript */
+.myRow > div {
+    background-color: var(--white);
+    border-color: var(--purple-border);
+    box-shadow: 0 4px 12px rgba(85, 48, 120, 0.12);
+}
+
+/* Product names and prices */
+.myRow h2 {
+    color: var(--purple-dark);
+}
+
+.myRow span {
+    color: var(--purple-dark) !important;
+}
+
+/* Add to cart */
+.btn-info {
+    background-color: var(--purple-main) !important;
+    border-color: var(--purple-main) !important;
+    color: var(--white) !important;
+}
+
+.btn-info:hover {
+    background-color: var(--purple-dark) !important;
+}
+
+/* Cart panel */
+#flexContainer h2 {
+    color: var(--purple-dark);
+}
+
+#flexContainer div {
+    background-image: linear-gradient(
+        to bottom right,
+        #F5F0FF,
+        #E6E6FA
+    );
+    border-color: var(--purple-border);
+}
+
+/* Cart action buttons */
+#flexContainer .btn-danger,
+#buttons2 .btn-danger {
+    background-color: var(--purple-dark) !important;
+    border-color: var(--purple-dark) !important;
+}
+
+#flexContainer .btn-success,
+#buttons2 .btn-success,
+#bankInfo .btn-success {
+    background-color: var(--purple-main) !important;
+    border-color: var(--purple-main) !important;
+    color: var(--white) !important;
+}
+
+/* Checkout bill */
+#finalBill #billTable {
+    background-color: var(--purple-dark);
+    border-color: var(--purple-border);
+}
+
+#finalBill #bankInfo {
+    background-color: #E6E6FA !important;
+    border-color: var(--purple-border);
+}
+
+/* Tables */
+#billTable table {
+    border-color: var(--purple-border);
+}
+
+#billTable th,
+#billTable td {
+    border-color: var(--purple-border);
+    color: var(--white);
+}
+
+/* Footer */
+#footer {
+    background-image: linear-gradient(
+        to right,
+        #E6E6FA,
+        #C4A1E8,
+        #8B5FBF
+    );
+    border-color: var(--purple-border);
+}
+
+#footer #myMail {
+    color: var(--purple-dark);
+}
+
+/* Product images */
+.carousel-item .img1,
+.carousel-item .img2 {
+    border-color: var(--purple-border);
+}
+
+/* Product category captions */
+.carousel-caption h3 {
+    color: var(--purple-dark) !important;
+}
+
+
+/* Navbar layout fix */
+.navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar .nav-item {
+    margin: 3px;
+}
+
+.navbar .nav-link.btn {
+    display: block;
+    padding: 10px 14px;
+    margin: 0;
+    border: 1px solid #b69adb;
+    border-radius: 8px;
+    white-space: nowrap;
+    background-color: #8b5fbf;
+    color: white;
+}
+
+/* Hover effect */
+.navbar .nav-link.btn:hover {
+    background-color: #e6e6fa;
+    color: #553078;
+}
+
+/* Navbar background */
+.navbar.bg-primary {
+    background-color: #35204f !important;
+}
+
+/* Dropdown spacing */
+.navbar .dropdown-menu {
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+/* Mobile responsive */
+@media (max-width: 767px) {
+    .navbar .navbar-nav {
+        align-items: stretch;
+        gap: 5px;
+    }
+
+    .navbar .nav-link.btn {
+        text-align: center;
+    }
+}
